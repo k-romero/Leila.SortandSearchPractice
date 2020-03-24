@@ -49,12 +49,12 @@ public class BinarySearchTest {
     }
 
 
-    @Test
-    public void testString0() {
-        BinarySearch<String> bs = new BinarySearch<>();
-        String[] array = {"apple","banana","coconut","dragon fruit"};
-        String wantToFind = "banana";
-        Assert.assertEquals(1, bs.search(wantToFind, array));
-    }
+//    @Test
+//    public void testString0() {
+//        BinarySearch<String> bs = new BinarySearch<>();
+//        String[] array = {"apple","banana","coconut","dragon fruit"};
+//        String wantToFind = "banana";
+//        Assert.assertEquals(1, bs.search(wantToFind, array));
+//    }
 
 }
